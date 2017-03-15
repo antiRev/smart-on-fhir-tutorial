@@ -21,7 +21,7 @@
     <script>
       function ready(smart) {
         console.log('ready '+smart.length);
-        var patient = smart.api.read({type: 'Patient', id: '7119244'}).then(function(response) {
+        var patient = smart.api.read({type: 'Patient', id: '711924'}).then(function(response) {
          document.body.innerText = JSON.stringify(response);
         });
        }
